@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>RAKSHAK</title>
+</head>
+<style>
+    *
+    {
+        margin: 0;
+        padding: 0%;
+    }
+    .mainpage
+    {
+        background-color: lightblue;
+        height: 100vh;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .white-box
+    {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        height: 80vh;
+        width: 85%;
+        background-color: whitesmoke;
+    }
+    .white-box .header
+    {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        /* border: 2px solid black; */
+        height: 5vh;
+    }
+     .logo
+    {
+       
+        width: 30%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .menubar{
+        height: 5vh;
+        width: 50%;
+        /* border: 2px solid black; */
+    }
+    .menubar ul{
+        height: 5vh;
+        font-weight: bold;
+        /* border: 2px solid black; */
+        display: flex;
+        list-style: none;
+        align-items: center;
+        justify-content: space-around;
+        color: darkblue;
+    }
+    ul li:hover
+    {
+        text-decoration: underline;
+    }
+    .txt-box
+    {
+        display: flex;
+        /* align-items: center; */
+        justify-content: space-evenly;
+        height: 60vh;
+        width: 100%;
+     
+        /* background-color: cadetblue; */
+    }
+    .txt-box .txt{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        /* background-color: aqua; */
+        width: 40%;
+    }
+    .txt{
+        display: flex;
+        flex-direction: column;
+      
+    
+    }
+    .txt .logo{
+        /* border: 2px solid rgb(114, 21, 21); */
+        width: 80%;
+        height: 20vh;
+        justify-content: left;
+        text-align: center;
+
+    }
+    .txt .logo h1{
+        
+    
+        width: 75%;
+        /* border: 2px solid black; */
+        font-size: xxx-large;
+    
+    }
+    .txt-box .img
+    {
+        display: flex;
+        width:50%;
+        justify-content: center;
+        align-items: center;
+      
+        /* border: 2px solid black; */
+    }
+    img{
+        background-size: 100% 100%;
+        width:80%;
+        border-radius: 15%;
+    
+        /* height: 40vh; */
+     
+    
+    }
+    button
+    {
+        background-color: rgb(10, 165, 131);
+        height: 4vh;
+        width: 30%;
+        border-radius: 8%;
+        border: none;
+    }
+   .txt-box .btn
+   {display: flex;
+    justify-content: space-evenly;
+       /* border: 2px solid black; */
+    width: 70%;
+   }
+
+</style>
+<body>
+    <div class="mainpage">
+
+        <div class="white-box">
+            <div class="header">
+                <div class="logo">
+                    <h2>RAKSHAK</h2>
+                </div>
+                <div class="menubar">
+                    <ul>
+                        <li>Home</li>
+                        <li>Projects</li>
+                        <li>Blog</li>
+                        <li>Contact</li>
+                        <li>About</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="txt-box">
+                <div class="txt">
+                    <div class="logo">
+                    <h1>Grow your bussiness</h1>
+                     </div>
+                
+                <div class="logo">
+                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ratione commodi ab, voluptatum quos deleniti saepe distinctio fuga dignissimos magni suscipit repudiandae molestiae ipsa delectus ad quaerat harum accusantium itaque accusamus?</p>
+                </div>
+                <div class="btn">
+                <button>Get Now</button>
+            <button>Get demo</button>
+        </div>
+            </div>
+            
+                <div class="img">
+                    <img src="/img/office.jpg" alt="">
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
